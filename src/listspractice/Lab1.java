@@ -17,7 +17,7 @@ public class Lab1 {
 
         System.out.println("My Hobbies");
         for (int i = 0; i < hobbies.size(); i++) {
-            String h = (String)hobbies.get(i);
+            String h = (String) hobbies.get(i);
             System.out.println(h);
         }
 
@@ -26,16 +26,16 @@ public class Lab1 {
 
         System.out.println("\n\nAdded Hobbies");
         for (int i = 0; i < hobbies.size(); i++) {
-            String h = (String)hobbies.get(i);
+            String h = (String) hobbies.get(i);
             System.out.println(h);
         }
-        
+
         hobbies.remove("hiking");
         hobbies.remove("writing code");
-        
+
         System.out.println("\n\n Hobbies removed");
         for (int i = 0; i < hobbies.size(); i++) {
-            String h = (String)hobbies.get(i);
+            String h = (String) hobbies.get(i);
             System.out.println(h);
         }
     }
